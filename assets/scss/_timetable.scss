@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+HK:wght@400;500;900&display=swap');
+body{
+  background: $silver;
+.wrapper{
+  margin: 50px auto;
+  width: 100%;
+  table{
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    font:{
+      size: 18px;
+      weight: 300;
+    }
+    tr{
+      height: 1.85em;
+      td:first-child{
+        color: $greenNeon;
+      }
+    }
+    td, th{
+      width: 20px;
+      text-align: center;
+      background: $cell-bg;
+    }
+    th{
+      font-weight: 600;
+      color: $greyDarkFont;
+      padding: 10px;
+      background: $greyDarkBG;
+      text-transform: uppercase;
+    }
+  }
+  }
+}

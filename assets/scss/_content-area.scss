@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+HK:wght@400;500;900&display=swap');
+#content-area{
+  font-family: 'Inter', sans-serif;
+  margin-left: 280px;
+  padding: 15px;
+  .heading{
+    h1{
+      color: purple;
+      font-size: 1.4rem;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+    p{
+      color: grey;
+      font-size: 0.8rem;
+      margin-bottom: 10px;
+    }
+  }
+  .todo{
+    min-height: 428px;
+    max-height: 428px;
+  }
+  .home{
+    min-height: 297px;
+    max-height: 297px;
+  }
+
+  .cards{
+    margin-bottom: 30px;
+    .card{
+      background: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      overflow: auto;
+
+      .user-img{
+        background: url("https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=707b9c33066bf8808c934c8ab394dff6") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 115px;
+        height: 115px;
+        border-radius: 50%;
+        margin: 0 auto;
+      }
+      .user-name{
+        font-size: 1rem;
+        color: purple;
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+      }
+      .user-title{
+        font-size: 0.8rem;
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+      }
+      .education{
+        font-size: 0.8rem;
+        color: $greyDarkFont;
+      }
+      .schools{
+        font-size: 0.8rem;
+      }
+      h6{
+        font-size: 1rem;
+
+      }
+      .date{
+        font-size: 1.3rem;
+        display: block;
+        border-left: 5px solid $greenNeon;
+        position: relative;
+        left: -20px;
+        padding: 5px 30px;
+        margin: 20px 0;
+      }
+      .job-type{
+        background: orange;
+        width: 20px;
+        height: 20px;
+        font-size: 0.6rem;
+        color: #fff;
+        padding: 5px 2.5px;
+        border-radius: 50%;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+      }
+      .location{
+        font-size: 0.8rem;
+        font-weight: 300;
+        display: block;
+        color: $greyDarkFont;
+        margin-bottom: 0.5rem;
+      }
+      .position{
+        font-size: 0.8rem;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 0.4rem;
+
+      }
+      .time{
+        font-size: 0.8rem;
+        font-weight: 300;
+        color: $greyDarkFont;
+        display: block;
+      }
+    }
+  }
+}
+table{
+  width: 100%;
+  thead{
+    background: $greyDarkBG;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  th{
+    font: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 20px 10px;
+    color: $greyDarkFont;
+    text-align: left;
+    text-align: center;
+    }
+  }
+  tbody{
+    background: #fff;
+    font-size: 0.8rem;
+    td{
+      padding: 21px 10px;
+      color: $greyDarkFont;
+      font-weight: 500;
+      font-size: 16px;
+      text-align: center;
+      .logo{
+        display: inline-block;
+        background: $greenNeon;
+        padding: 15px 11px;
+        border-radius: 50%;
+        margin-right: 20px;
+        width: 45px;
+        height: 45px;
+        color: #fff;
+      }
+      input{
+        background: white;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        border-width: 2px;
+
+      }
+    }
+  }
+}
+td:first-child{
+  text-align: left;
+}
+td:last-child{
+  color: red;
+}
+.weekday{
+  background: #fff;
+  padding: 45px 5px 20px 5px;
+  text-align: center;
+  color: $greyLightFont;
+}
+.button-style {
+  background-color: $greyLightBG;
+  border-radius: 4px;
+  color: black;
+  padding: 10px 24px;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+}
+
+#previous {
+  float: left;
+  padding-top: 10px;
+  color: $greyLightFont2;
+}
+
+#next {
+  float: right;
+  padding-top: 10px;
+  color: $greyLightFont2;
+}
+
+.resultMonthAndYear {
+  font-size: 20px;
+  font-weight: 700;
+  color: $greyLightFont2;
+  text-align: center;
+  line-height: 40px;
+  background-color: $greyLightBG;
+  margin: 10px 0;
+}
+.currentDay {
+  background-color: $greenNeon;
+  color: #fff;
+}
+
+.currentDay:hover {
+  background-color: $purpleLight;
+}
+
+#content{
+  min-height: 408px;
+  text-align: center;
+}
